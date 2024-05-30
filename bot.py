@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
 BOT_TOKEN = '6604593498:AAFpgGjG8qyek5KzsVe6FcbiUcV1-hDIRUk'
-WEB_APP_URL = 'https://your-username.github.io/your-repo-name/'  # Replace with your GitHub Pages URL
+WEB_APP_URL = 'https://melzoncode.github.io/game/' # Replace with your GitHub Pages URL
 
 def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
